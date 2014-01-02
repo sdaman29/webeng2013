@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<title>Simple Table</title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript">
+ $(function() {
+		/* For zebra striping */
+        $("table tr:nth-child(odd)").addClass("odd-row");
+		/* For cell text alignment */
+		$("table td:first-child, table th:first-child").addClass("first");
+		/* For removing the last border */
+		$("table td:last-child, table th:last-child").addClass("last");
+});
+</script>
+<link rel="stylesheet" href="tableStyle.css" type="text/css"/>	
+</head>
+<body>
+
+<div id="content">
+
+    <table>
+    <tr><th>XHTML Tag</th><th>Semantisch</th><th>Inline</th><th>Erklärung</th></tr>
+	<TR>
+		<TD>&lt;a&gt;&lt;/a&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Verweis (Hyperlink) und Anker für Verweise</TD>
+	</TR>
+	<TR>
+		<TD>&lt;abbr&gt;&lt;/abbr&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Abkürzung</TD>
+	</TR>
+	<TR>
+		<TD>&lt;acronym&gt;&lt;/acronym&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Akronym</TD>
+	</TR>
+	<TR>
+		<TD>&lt;address&gt;&lt;/address&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Kontaktangabe zum Autor eines Inhalts (Credits)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;area /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Verweis-sensitiver Bereich in einer Image-Map-Grafik</TD>
+	</TR>
+	<TR>
+		<TD>&lt;b&gt;&lt;/b&gt;</TD>
+		<td> </td>
+		<td><img src="plus.png" /></td>
+		<TD> Stilistische Hervorhebung im Text (üblicherweise fett dargestellt)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;base /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Basis-URL für Referenzen</TD>
+	</TR>
+	<TR>
+		<TD>&lt;bdo&gt;&lt;/bdo&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Richtungsänderung bei bidirektionalem Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;big&gt;&lt;/big&gt;</TD>
+		<td> </td>
+		<td><img src="plus.png" /></td>
+		<TD> Großschrift</TD>
+	</TR>
+	<TR>
+		<TD>&lt;blockquote&gt;&lt;/blockquote&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Zitat in Form eines eigenen Textabsatzes</TD>
+	</TR>
+	<TR>
+		<TD>&lt;body&gt;&lt;/body&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Inhaltsbereich eines HTML-Dokuments</TD>
+	</TR>
+	<TR>
+		<TD>&lt;br /&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Erzwungener Zeilenumbruch an der betreffenden Stelle</TD>
+	</TR>
+	<TR>
+		<TD>&lt;button&gt;&lt;/button&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Schaltfläche in einem Formular</TD>
+	</TR>
+	<TR>
+		<TD>&lt;caption&gt;&lt;/caption&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabellenüberschrift / -unterschrift</TD>
+	</TR>
+	<TR>
+		<TD>&lt;cite&gt;&lt;/cite&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Zitat innerhalb eines Absatzes</TD>
+	</TR>
+	<TR>
+		<TD>&lt;code&gt;&lt;/code&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Quelltext-Auszug innerhalb eines Absatzes</TD>
+	</TR>
+	<TR>
+		<TD>&lt;col /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabellenspalte</TD>
+	</TR>
+	<TR>
+		<TD>&lt;colgroup&gt;&lt;/colgroup&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Gruppe von Tabellenspalten</TD>
+	</TR>
+	<TR>
+		<TD>&lt;dd&gt;&lt;/dd&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Definition, Beschreibung, detaillierter Inhalt zu einem dt-Element</TD>
+	</TR>
+	<TR>
+		<TD>&lt;del&gt;&lt;/del&gt;<</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> gelöschter Inhalt (Änderungsmarkierung)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;dfn&gt;&lt;/dfn&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Definition innerhalb eines Absatzes</TD>
+	</TR>
+	<TR>
+		<TD>&lt;div&gt;&lt;/div&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Allgemeiner Bereich</TD>
+	</TR>
+	<TR>
+		<TD>&lt;dl&gt;&lt;/dl&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Liste mit dt- und dd-Elementen, für Definitionslisten, Dialoge usw.</TD>
+	</TR>
+	<TR>
+		<TD>&lt;dt&gt;&lt;/dt&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Zu definierender Ausdruck in einer Definitionsliste, Sprechername in einem Dialog usw.</TD>
+	</TR>
+	<TR>
+		<TD>&lt;em&gt;&lt;/em&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> emphatischer Ausdruck innerhalb eines Absatzes (z.B. überspitzte Formulierung)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;fieldset&gt;&lt;/fieldset&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Gruppe von Elementen in einem Formular, Reiter in einem Dialog</TD>
+	</TR>
+	<TR>
+		<TD>&lt;form&gt;&lt;/form&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Formular, Dialog</TD>
+	</TR>
+	<TR>
+		<TD>&lt;h1-h6&gt;&lt;/h1-h6&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Überschrift 1. bis 6. Ordnung</TD>
+	</TR>
+	<TR>
+		<TD>&lt;head&gt;&lt;/head&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Kopfbereich eines HTML-Dokuments</TD>
+	</TR>
+	<TR>
+		<TD>&lt;hr /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Trennlinie</TD>
+	</TR>
+	<TR>
+		<TD>&lt;html&gt;&lt;/html&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Dokumentelement von HTML-Dokumenten, schließt das gesamte Dokument ein</TD>
+	</TR>
+	<TR>
+		<TD>&lt;i&gt;&lt;/i&gt;</TD>
+		<TD><img src="plus.png" /></TD>
+		<TD><img src="plus.png" /></TD>
+		<TD> spezieller Ausdruck im Text, z.B. Fachterminus oder Idiom (üblicherweise kursiv dargestellt)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;img /&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Referenzierte und eingebettete Grafik</TD>
+	</TR>
+	<TR>
+		<TD>&lt;input /&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Formularelement, verwendbar für diverse Typen wie Eingabefelder, Schaltflächen, Auswahlfelder usw.</TD>
+	</TR>
+	<TR>
+		<TD>&lt;ins&gt;&lt;/ins&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Eingefügter Inhalt (Änderungsmarkierung)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;kbd&gt;&lt;/kbd&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Darstellung eines über Tastatur einzugebenden Textes im Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;label&gt;&lt;/label&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Beschriftungstext eines Formularfeldes</TD>
+	</TR>
+	<TR>
+		<TD>&lt;legend&gt;&lt;/legend&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Überschrift für eine fieldset-Gruppe von Elementen in einem Formular</TD>
+	</TR>
+	<TR>
+		<TD>&lt;li&gt;&lt;/li&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Listenpunkt in einer ul-, ol- oder menu-Liste</TD>
+	</TR>
+	<TR>
+		<TD>&lt;link /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Logische Beziehungen der aktuellen Webseite zu anderen Webseiten</TD>
+	</TR>
+	<TR>
+		<TD>&lt;map&gt;&lt;/map&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Bereich für verweis-sensitive Grafiken</TD>
+	</TR>
+	<TR>
+		<TD>&lt;meta /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Meta-Angabe für nicht im Inhalt sichtbare Dokumentinformationen oder für Anweisungen an den Webserver</TD>
+	</TR>
+	<TR>
+		<TD>&lt;noscript&gt;&lt;/noscript&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Bereich für Inhalte, die angezeigt werden, wenn JavaScript im Browser deaktiviert oder nicht verfügbar ist</TD>
+	</TR>
+	<TR>
+		<TD>&lt;object&gt;&lt;/object&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Eingebettetes Objekt, geeignet für spezielle Multimedia-Objekte, Java-Applets usw.</TD>
+	</TR>
+	<TR>
+		<TD>&lt;ol&gt;&lt;/ol&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td></td>
+		<TD> Geordnete (z.B. nummerierte) Liste</TD>
+	</TR>
+	<TR>
+		<TD>&lt;optgroup&gt;&lt;/optgroup&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Gruppe von Auswahlmöglichkeiten in einer Auswahlliste</TD>
+	</TR>
+	<TR>
+		<TD>&lt;option&gt;&lt;/option&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Auswahlmöglichkeit in einer Auswahlliste</TD>
+	</TR>
+	<TR>
+		<TD>&lt;p&gt;&lt;/p&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Paragraph, Absatz</TD>
+	</TR>
+	<TR>
+		<TD>&lt;param /&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Parameter eines Objekts bei object-Element</TD>
+	</TR>
+	<TR>
+		<TD>&lt;pre&gt;&lt;/pre&gt;</TD>
+		<td> </td><td></td>
+		<TD> Präformatierter Text (alle Whitespace-Zeichen werden im Browser so dargestellt wie im Text enthalten)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;q&gt;&lt;/q&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Wörtliche Rede in einem Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;samp&gt;&lt;/samp&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Beispieltext in einem dokumentierenden Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;script&gt;&lt;/script&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Scriptbereich für JavaScript und andere Scriptsprachen</TD>
+	</TR>
+	<TR>
+		<TD>&lt;select&gt;&lt;/select&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Auswahlliste in einem Formular</TD>
+	</TR>
+	<TR>
+		<TD>&lt;small&gt;&lt;/small&gt;</TD>
+		<td> </td>
+		<td><img src="plus.png" /></td>
+		<TD> kleiner dargestellter Text als Normalschrift</TD>
+	</TR>
+	<TR>
+		<TD>&lt;span&gt;&lt;/span&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> allgemeiner Bereich innerhalb eines Absatzes</TD>
+	</TR>
+	<TR>
+		<TD>&lt;strong&gt;&lt;/strong&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> stark betonter Inhalt im Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;style&gt;&lt;/style&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Bereich für Stylesheet-Definitionen, z.B. in CSS</TD>
+	</TR>
+	<TR>
+		<TD>&lt;sub&gt;&lt;/sub&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Tiefgestellter Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;sup&gt;&lt;/sup&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Hochgestellter Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;table&gt;&lt;/table&gt; </TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabelle</TD>
+	</TR>
+	<TR>
+		<TD>&lt;tbody&gt;&lt;/tbody&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabellenkörper mit den eigentlichen Daten</TD>
+	</TR>
+	<TR>
+		<TD>&lt;td&gt;&lt;/td&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabellenzelle</TD>
+	</TR>
+	<TR>
+		<TD>&lt;textarea&gt;&lt;/textarea&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Mehrzeiliger Eingabebereich in einem Formular</TD>
+	</TR>
+	<TR>
+		<TD>&lt;tfoot&gt;&lt;/tfoot&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Fußbereich in einer Tabelle, z.B. für summarische Daten</TD>
+	</TR>
+	<TR>
+		<TD>&lt;th&gt;&lt;/th&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabellenkopfzelle</TD>
+	</TR>
+	<TR>
+		<TD>&lt;thead&gt;&lt;/thead&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Kopfbereich einer Tabelle</TD>
+	</TR>
+	<TR>
+		<TD>&lt;title&gt;&lt;/title&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Titel eines HTML-Dokuments</TD>
+	</TR>
+	<TR>
+		<TD>&lt;tr&gt;&lt;/tr&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Tabellenzeile</TD>
+	</TR>
+	<TR>
+		<TD>&lt;tt&gt;&lt;/tt&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> »Fernschreiber«-Text</TD>
+	</TR>
+	<TR>
+		<TD>&lt;ul&gt;&lt;/ul&gt;</TD>
+		<td><img src="plus.png" /></td><td></td>
+		<TD> Unsortierte Liste (Aufzählungsliste)</TD>
+	</TR>
+	<TR>
+		<TD>&lt;var&gt;&lt;/var&gt;</TD>
+		<td><img src="plus.png" /></td>
+		<td><img src="plus.png" /></td>
+		<TD> Variabler Name in einem dokumentierenden Text</TD>
+	</TR>    
+	</table>
+
+</div>
+
+</body>
+</html>
