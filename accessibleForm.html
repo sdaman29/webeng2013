@@ -2,21 +2,32 @@
 <head>
 <title>Das barrierefreie Suchformular für Wikipedia-Artikeln</title>
 <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
-<link rel="stylesheet" href="accessibleFormStyle.css" type="text/css"/>	
+<link rel="stylesheet" href="accessibleFormStyle.css" type="text/css" />
 </head>
 <body>
-<div class="h1-div"><h1>Das barrierefreie Suchformular für Wikipedia-Artikeln</h1></div>
-<p>Tippe die Suchphrase in dem Textfeld. Wähle "Artikel" für die Artikel-Suche,
-"Volltext" für die Volltext-Suche</p>
-<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
-   <fieldset  class="styled-formset-1">
-      <legend  class="styled-legend-1" >Wikipedia Artikel- und Volltext-Suche</legend>
-	  <label for="search" class="styled-label-1">Suchphrase:
-		<input type="text"   name="suche" id="search" value="" />
-	  </label>
-      <input class="styled-button-4" type="submit" name="go" value="Artikel"/>
-      <input class="styled-button-4" type="submit" name="fulltext" value="Volltext" />
-   </fieldset>
-</form>
+	<div id="headerPanel">
+		<h1>Das barrierefreie Suchformular für Wikipedia-Artikeln</h1>
+	</div>
+	<p>Tippe die Suchphrase in dem Textfeld. Wähle "Artikel" für die
+		Artikel-Suche, "Volltext" für die Volltext-Suche</p>
+
+	<div id="styled-formset-div-2">
+		<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+			<fieldset id="styled-formset-2" >
+				<legend class="styled-legend-1">Wikipedia Artikel- und
+					Volltext-Suche</legend>
+				<label for="search" class="styled-label-1">Suchphrase: <input
+					type="text" name="suche" id="search" value="" />
+				</label> <input class="styled-button-4" type="submit" name="go"
+					value="Artikel" /> <input class="styled-button-4" type="submit"
+					name="fulltext" value="Volltext" />
+			</fieldset>
+		</form>
+	</div>
+
+	<div id="footer">
+		<p>©Konrad Banyś, 2013-2014</p><a href="http://wave.webaim.org/report#/http%3A%2F%2Fkonradbanys.cloudcontrolled.com%2FaccessibleForm.html"><img src="wcag2AAA.gif"></img></a>
+	</div>
+
 </body>
 </html>
