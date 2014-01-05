@@ -20,14 +20,41 @@ textarea:hover, textarea:active, textarea:focus {
 	font-size:14px;
 	font-weight:700;
 	padding:2px 6px;
-	height:31px
+	height:31px;
 }
+
+#left {
+	float: left;
+	display: inline-block;
+	padding: 5px 5px 0 0;
+}
+
+#right{
+    float: right;
+    display: inline-block;
+}
+#span1 {
+    display: block;
+    overflow: hidden;
+    padding: 5px 5px 0 0;
+}
+
 
 .styled-label-1 {
 	font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
 	font-size:14px;
 	font-weight:700;
+
 }
+
+#search {
+    width: 95%;
+    float: right;
+}
+
+
+
+
 
 .styled-legend-1 {
 	font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
@@ -35,26 +62,6 @@ textarea:hover, textarea:active, textarea:focus {
 	font-weight:700;
 }
 
-.styled-formset-1 {
-	/*display: -moz-inline-stack;
-	display: inline-block;
-	zoom: 1;
-	*display: inline;*/
-	padding:10px;
-	/*position: relative;
-	float: right;*/
-	margin-top: 20px;	
-    margin-left: auto;
-    margin-right: auto;
-    position: absolute;
-    /*position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: auto;*/	
-}
 
 #styled-formset-div-2 {
 	left: 50%;
@@ -69,10 +76,15 @@ textarea:hover, textarea:active, textarea:focus {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;*/
-	width: 460px;
+	width: 480px;
 	padding:10px;
 }
 
+#styled-formset-2 div {
+	margin: auto;
+	position: related;
+	display: inline-block;
+}
 
 #headerPanel {
 	z-index: 1;
@@ -122,4 +134,5 @@ textarea:hover, textarea:active, textarea:focus {
 	margin-right: 10px;
 	margin-top:10px;
 }
+
 
