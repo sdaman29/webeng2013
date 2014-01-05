@@ -42,3 +42,16 @@ textarea:hover, textarea:active, textarea:focus {
 	*display: inline;
 	padding:10px
 }
+
+.h1-div {
+	z-index: 1;
+	position: fixed;
+	width: 97.5%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #668284;
+	margin-bottom: 10px;
+	-moz-border-radius:5px; /* FF1+ */
+	-webkit-border-radius:5px; /* Saf3-4 */
+	border-radius:5px;
+}
