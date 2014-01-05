@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My First Bootstrap page:)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<h1>Konrad Banys' first lame page v. 0.1</h1>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Panel primary</h3>
+              </div>
+              <div class="panel-body">
+                Panel content
+              </div>
+              <div><a href="XHTMLTagTable.html">XHTML Tag Tabelle</a></div>
+              <div><a href="accessibleForm.html">Barrierefreies Formular</a></div>
+            </div>
+
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
