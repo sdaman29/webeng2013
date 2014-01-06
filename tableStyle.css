@@ -151,11 +151,11 @@
 /* 		-webkit-border-top-right-radius:5px; Saf3-4 */
 	}
 	
-	tr:last-child td.first {
-/* 		-moz-border-radius-bottomleft:5px; */
-/* 		-webkit-border-bottom-left-radius:5px; Saf3-4 */
-	}	
-	tr:last-child td.last {
-/* 		-moz-border-radius-bottomright:5px; */
-/* 		-webkit-border-bottom-right-radius:5px; Saf3-4 */
-	}
+/* 	tr:last-child td.first { */
+/* /* 		-moz-border-radius-bottomleft:5px; */ */
+/* /* 		-webkit-border-bottom-left-radius:5px; Saf3-4 */ */
+/* 	}	 */
+/* 	tr:last-child td.last { */
+/* /* 		-moz-border-radius-bottomright:5px; */ */
+/* /* 		-webkit-border-bottom-right-radius:5px; Saf3-4 */ */
+/* 	} */
