@@ -35,7 +35,7 @@
 	margin-bottom: 10px;
 	-moz-border-radius:5px; /* FF1+ */
 	-webkit-border-radius:5px; /* Saf3-4 */
-	border-radius:5px;
+	/*border-radius:5px;*/
 	/*font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
 	font-size:14px;*/
 	text-align: center;
@@ -43,7 +43,7 @@
 
 #headerPanel h1 {
 	position: relative;
-	display: inline-block;
+	display: inline;
 	font-family:'Lucida Grande',Tahoma,Verdana,Arial,Sans-serif;
 	font-size:16px;
 	margin-top:25px;
@@ -63,15 +63,17 @@
 	text-align: center;
 	/*color: #ffffff;*/
 	width: 99%;
+	margin-top: 100px;
 }
 
 #footer p {
 	position: relative;
-	display: inline-block;
+	display: inline;
 	margin-left:44px;
+	margin-top: 10px;
 }
 #footer a {
-	display: inline-block;
+	display: inline;
 	float:right;
 	margin-right: 10px;
 	margin-top:10px;
@@ -95,7 +97,7 @@
 		margin:5% auto 0;
 		-moz-border-radius:5px; /* FF1+ */
 		-webkit-border-radius:5px; /* Saf3-4 */
-		border-radius:5px;
+		/*border-radius:5px;*/
 		-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 		-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 		border-collapse: collapse; /* 'cellspacing' equivalent */
