@@ -108,7 +108,7 @@
 	
 	th, td {padding:18px 28px 18px; text-align:center; }
 	
-	th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
+	th {padding-top:22px; /*text-shadow: 1px 1px 1px #fff;*/ background:#e8eaeb;}
 	
 	td {border-top:1px solid #e0e0e0; border-right:1px solid #e0e0e0;}
 	
