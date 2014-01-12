@@ -27,7 +27,7 @@
 #headerPanel {
 	z-index: 1;
 	position: fixed;
-	width: 99%;
+	width: 100%;
 	clear: both;
 	margin-top: -20px;
 	height: 110px;
